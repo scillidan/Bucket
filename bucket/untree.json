@@ -1,5 +1,5 @@
 {
-    "version": "v0.9.10",
+    "version": "0.9.10",
     "description": "Untree: Undoing tree for fun and profit.",
     "homepage": "https://github.com/codeinred/untree",
     "license": "MIT",
@@ -17,7 +17,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/codeinred/untree/releases/download/$version/untree-x86_64-pc-windows-msvc.zip"
+                "url": "https://github.com/codeinred/untree/releases/download/v$version/untree-x86_64-pc-windows-msvc.zip"
             }
         }
     }
