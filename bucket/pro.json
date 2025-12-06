@@ -1,0 +1,28 @@
+{
+    "version": "v0.6.0",
+    "description": "Open current PR in browser with a single command. Supports GitHub and GitLab.",
+    "homepage": "https://github.com/Wowu/pro",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/wowu/pro/releases/download/v0.6.0/pro-windows-amd64.zip",
+            "hash": "820412d8472ea86fa69b9840c361589522ac1b30096b15fe851304a655cd301a"
+        }
+    },
+    "bin": "pro.exe",
+    "checkver": {
+        "url": "/releases/latest",
+        "regex": "pro-windows-amd64.zip"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Wowu/pro/releases/download/$version/pro-windows-amd64.zip",
+                "hash": {
+                    "url": "$baseurl/pro-checksums.txt",
+                    "find": "([a-fA-F0-9]{32,128})[\\x20\\t]+.*`$basename(?:[\\x20\\t]+\\d+)?"
+                }
+            }
+        }
+    }
+}
