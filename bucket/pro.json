@@ -1,5 +1,5 @@
 {
-    "version": "v0.6.0",
+    "version": "0.6.0",
     "description": "Open current PR in browser with a single command. Supports GitHub and GitLab.",
     "homepage": "https://github.com/Wowu/pro",
     "license": "MIT",
@@ -17,7 +17,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Wowu/pro/releases/download/$version/pro-windows-amd64.zip",
+                "url": "https://github.com/Wowu/pro/releases/download/v$version/pro-windows-amd64.zip",
                 "hash": {
                     "url": "$baseurl/pro-checksums.txt",
                     "find": "([a-fA-F0-9]{32,128})[\\x20\\t]+.*`$basename(?:[\\x20\\t]+\\d+)?"
