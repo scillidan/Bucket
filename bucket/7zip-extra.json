@@ -1,0 +1,25 @@
+{
+    "version": "25.01",
+    "description": "7-Zip Extra: standalone console version, 7z DLL, Plugin for Far Manager.",
+    "homepage": "https://www.7-zip.org/",
+    "license": "LGPL-2.1-or-later",
+    "architecture": {
+        "64bit": {
+            "url": "https://www.7-zip.org/a/7z2501-extra.7z",
+            "hash": "CD3CF38085C2CC6839CF72716DAFB3175AE425F4FD34FAAFC6C0B64D618D307F"
+        }
+    },
+    "bin": "7za.exe",
+    "env_add_path": ".",
+    "checkver": {
+        "url": "https://www.7-zip.org/download.html",
+        "regex": "Download 7-Zip ([\\d.]+) \\(\\d{4}-\\d{2}-\\d{2}\\)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://www.7-zip.org/a/7z$cleanVersion-extra.7z"
+            }
+        }
+    }
+}
