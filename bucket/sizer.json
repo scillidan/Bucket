@@ -9,8 +9,6 @@
             "hash": "1e6560e2040f929503372f74ba93b521d9c2c90bc4667a9696b04e28d1044f1a"
         }
     },
-    "bin": "sizer.exe",
-    "env_add_path": ".",
     "shortcuts": [
         [
             "sizer.exe",
