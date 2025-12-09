@@ -10,7 +10,6 @@
         }
     },
     "bin": "7za.exe",
-    "env_add_path": ".",
     "checkver": {
         "url": "https://www.7-zip.org/download.html",
         "regex": "Download 7-Zip ([\\d.]+) \\(\\d{4}-\\d{2}-\\d{2}\\)"
