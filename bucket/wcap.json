@@ -17,7 +17,7 @@
         ]
     ],
     "persist": [
-        "wcap-x64.ini",
+        "wcap-x64.ini"
     ],
     "checkver": {
         "url": "https://github.com/mmozeiko/wcap/commits/maim.atom",
