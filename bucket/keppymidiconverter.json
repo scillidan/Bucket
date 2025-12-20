@@ -25,10 +25,7 @@
     "persist": [
         "KeppyMIDIConverter.exe.config"
     ],
-    "checkver": {
-        "url": "https://github.com/KeppySoftware/KMC/releases/latest",
-        "regex": "KeppyMIDIConverterPortable.zip"
-    },
+    "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
