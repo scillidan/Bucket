@@ -15,10 +15,7 @@
             "resizer2"
         ]
     ],
-    "checkver": {
-        "url": "https://github.com/alvesvaren/resizer2",
-        "checkver": "github"
-    },
+    "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
