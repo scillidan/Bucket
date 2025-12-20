@@ -14,10 +14,7 @@
         }
     },
     "bin": "audiowaveform.exe",
-    "checkver": {
-        "url": "https://github.com/bbc/audiowaveform/releases/latest",
-        "regex": "audiowaveform-([\\d.]+).win64.zip"
-    },
+    "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
