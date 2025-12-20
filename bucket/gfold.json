@@ -15,10 +15,7 @@
             "gfold"
         ]
     ],
-    "checkver": {
-        "url": "https://github.com/nickgerace/gfold",
-        "checkver": "github"
-    },
+    "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
