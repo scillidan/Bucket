@@ -12,10 +12,7 @@
             "wxMP3gain"
         ]
     ],
-    "checkver": {
-        "url": "https://github.com/cfgnunes/wxmp3gain/releases/latest",
-        "regex": "wxmp3gain-([\\d.]+)-win32-portable.zip"
-    },
+    "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/cfgnunes/wxmp3gain/releases/download/$version/wxmp3gain-$version-win32-portable.zip"
     }
