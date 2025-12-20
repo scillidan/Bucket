@@ -16,10 +16,7 @@
             "pgstosrt"
         ]
     ],
-    "checkver": {
-        "url": "https://github.com/Tentacule/PgsToSrt/releases/latest",
-        "regex": "PgsToStr-([\\d.]+).zip"
-    },
+    "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
