@@ -3,7 +3,7 @@
     "description": "A GUI for SSHFS-Win.",
     "homepage": "https://github.com/evsar3/sshfs-win-manager",
     "license": "MIT",
-    "depends": "nonportable/sshfs-np",
+    "suggest": "nonportable/sshfs-np",
     "architecture": {
         "64bit": {
             "url": "https://github.com/evsar3/sshfs-win-manager/releases/download/v1.3.1/sshfs-win-manager-v1.3.1.zip",
